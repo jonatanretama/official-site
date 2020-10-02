@@ -8,7 +8,6 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    //Jonatan Retama
     <>
       <Router>
         <Navbar />
