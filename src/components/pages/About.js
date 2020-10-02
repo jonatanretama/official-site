@@ -9,7 +9,7 @@ function About() {
         <>
             <div className = "about">
                 <h1>About</h1>
-                <img src="images/about/me1.jpg" alt="Avatar" className = "avatar" /> 
+                <img src="/official-site/images/about/me1.jpg" alt="Avatar" className = "avatar" /> 
             </div>
             <AboutSection />
             <Footer />

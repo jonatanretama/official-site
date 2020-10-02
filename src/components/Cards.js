@@ -13,7 +13,7 @@ function Cards() {
             <div className = 'cards-content'>
                 <ul className = 'cards-ul'>
                     <CardsItem
-                        src = "official-site/images/personal/credit-page.png"
+                        src = "/official-site/images/personal/credit-page.png"
                         title = "React app | Personal"
                         text = "A page to calculate credit"
                         path = 'https://jonatanretama.github.io/calculate-credit-react/'
@@ -21,7 +21,7 @@ function Cards() {
                         
                         />
                     <CardsItem
-                        src = "official-site/images/fcc/tribute.png"
+                        src = "/official-site/images/fcc/tribute.png"
                         title = "HTML, CSS | Free Code Camp"
                         text = "A tribute page"
                         path = 'https://codepen.io/jonatanretama/full/jOqLxdK'
@@ -29,19 +29,19 @@ function Cards() {
                 </ul>
                 <ul className = 'cards-ul'>
                     <CardsItem
-                        src = "official-site/images/fcc/product.png"
+                        src = "/official-site/images/fcc/product.png"
                         title = "HTML, CSS | Free Code Camp"
                         text = "A Product Landing Page"
                         path = 'https://codepen.io/jonatanretama/full/MWyEVre'
                     />
                     <CardsItem
-                        src = "official-site/images/fcc/form.png"
+                        src = "/official-site/images/fcc/form.png"
                         title = "HTML, CSS | Free Code Camp"
                         text = "Survey Form Page"
                         path = 'https://codepen.io/jonatanretama/full/mdPBbBB'
                     />
                     <CardsItem
-                        src = "official-site/images/fcc/documentation.png"
+                        src = "/official-site/images/fcc/documentation.png"
                         title = "HTML, CSS | Free Code Camp"
                         text = "Technical Documentation Page"
                         path = 'https://codepen.io/jonatanretama/full/jOqaqjd'

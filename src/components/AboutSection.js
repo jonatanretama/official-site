@@ -4,10 +4,10 @@ import './styles/AboutSection.css';
 function AboutSection() {
     return (
         <div className = "about-section-container" >
-            <h1 className = "title-about-section">Fight for your dreams. <i class="fas fa-user-astronaut"></i></h1>
+            <h1 className = "title-about-section">Fight for your dreams. <i className="fas fa-user-astronaut"></i></h1>
             <div className = "first-about-section">
                 <div className = "first-image-about-section">
-                    <img src="images/about/me2.jpg" alt="Avatar" className = "first-image" /> 
+                    <img src="/official-site/images/about/me2.jpg" alt="Avatar" className = "first-image" /> 
                 </div>
                 <div className = "text-section">
                     <h2 className = "subtitle-about-section" >
@@ -23,7 +23,7 @@ function AboutSection() {
 
             <div className = "second-about-section">
                 <div className = "second-image-about-section">
-                    <img src="images/about/me.jpg" alt="Avatar" className = "second-image" /> 
+                    <img src="/official-site/images/about/me.jpg" alt="Avatar" className = "second-image" /> 
                 </div>
                 <div className = "text-section">
                     <h2 className = "subtitle-about-section" >
@@ -40,10 +40,10 @@ function AboutSection() {
                             University of Tulancingo (UPT).
                         </li>
                         <a href = "http://www.cbtis179.edu.mx/portal/" target = "_blank" rel="noopener noreferrer">
-                            <img src="images/about/cbtis.jpg" alt="Avatar" className = "logo-cbtis" /> 
+                            <img src="official-site/images/about/cbtis.jpg" alt="Avatar" className = "logo-cbtis" /> 
                         </a>
                         <a href="http://www.upt.edu.mx/" target = "_blank" rel="noopener noreferrer">
-                            <img src="images/about/logoupt.png" alt="Avatar" className = "logo-upt" />
+                            <img src="official-site/images/about/logoupt.png" alt="Avatar" className = "logo-upt" />
                         </a>
                     </ul>
                     
