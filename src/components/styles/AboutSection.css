@@ -1,0 +1,208 @@
+.about-section-container {
+    display: flex;
+    flex-direction: column;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4286f4, #373B44);
+    max-width: 100vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 3.5rem;
+}
+
+.text-background {
+    padding: 0.7rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.title-about-section {
+    margin-top: 2.5rem;
+    font-family: 'Fira Code', monospace;    
+    font-size: 2rem;
+    color: #fff;
+}
+
+.subtitle-about-section {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #fff;
+}
+
+.first-about-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70vw;
+    width: 60vw;
+    margin-top: 2rem;
+}
+
+.second-about-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    max-width: 70vw;
+    width: 60vw;
+    margin-top: 2rem;
+}
+
+
+.first-image {
+    border-radius: 15%;
+    width: 150px;
+    height: 180px;
+    margin-right: 3rem;
+}
+
+.second-image {
+    margin-top: 4rem;
+    border-radius: 15%;
+    width: 150px;
+    height: 180px;
+    margin-left: 3rem;
+}
+
+.logo-upt, .logo-cbtis {
+    border-radius: 15%;    
+    height: 70px;
+    margin: 10px;    
+}
+
+.logo-cbtis {
+    width: 95px;
+}
+
+.text-section > p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-section > ul > li {
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo-cbtis:hover {
+    padding: 2px;
+    transition: all 0.3s ease-out;
+}
+.logo-upt:hover{
+    padding: 2px;
+    transition: all 0.3s ease-out;
+}
+
+.dev-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    width: auto;
+    height: auto;
+    
+}
+
+.fa-user-astronaut {
+    font-size: 50px;
+}
+
+.dev-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    
+}
+
+.icons-dev-container{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 20px;    
+}
+
+.icon-dev-into {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-dev-into:hover {
+    padding: 2px;
+    transition: all 0.3s ease-in;
+}
+
+.title-dev {
+    color: #fff;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .first-image {
+        border-radius: 15%;
+        width: 100px;
+        height: 130px;
+        margin-right: 2.5rem;
+    }
+    
+    .second-image {
+        border-radius: 15%;
+        width: 105px;
+        height: 130px;
+        margin-left: 2.5rem;
+        margin-top: 6rem;
+    }
+    
+    .logo-upt, .logo-cbtis {
+        border-radius: 15%;    
+        height: 40px;
+        margin: 10px;    
+    }
+    
+    .logo-cbtis {
+        width: 65px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .icons-dev-container{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 20px;    
+    }
+
+    .first-about-section {
+        max-width: 95vw;
+        width: 92vw;
+    }
+
+    .second-about-section {
+        max-width: 95vw;
+        width: 92vw;
+    }
+
+    .first-image {
+        margin-top: 2rem;
+        width: 60px;
+        height: 80px;
+        margin-right: 1rem;
+    }
+    
+    .second-image {
+        margin-top: 6rem;
+        width: 70px;
+        height: 80px;
+        margin-left: 1rem;
+    }
+}
