@@ -40,10 +40,10 @@ function AboutSection() {
                             University of Tulancingo (UPT).
                         </li>
                         <a href = "http://www.cbtis179.edu.mx/portal/" target = "_blank" rel="noopener noreferrer">
-                            <img src="official-site/images/about/cbtis.jpg" alt="Avatar" className = "logo-cbtis" /> 
+                            <img src="/official-site/images/about/cbtis.jpg" alt="Avatar" className = "logo-cbtis" /> 
                         </a>
                         <a href="http://www.upt.edu.mx/" target = "_blank" rel="noopener noreferrer">
-                            <img src="official-site/images/about/logoupt.png" alt="Avatar" className = "logo-upt" />
+                            <img src="/official-site/images/about/logoupt.png" alt="Avatar" className = "logo-upt" />
                         </a>
                     </ul>
                     
