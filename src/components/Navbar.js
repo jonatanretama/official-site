@@ -30,7 +30,7 @@ useEffect(() => {
         <>
             <nav className = "navbar">
                 <div className = "navbar-container">
-                    <Link to = '/' className = "navbar-title" onClick = {closeMenu}>
+                    <Link to = '/official-site' className = "navbar-title" onClick = {closeMenu}>
                         Jonatan Retama
                         <i className = "fas fa-code" />
                     </Link>
@@ -41,25 +41,25 @@ useEffect(() => {
 
                     <ul className = {click ? "nav-menu active" : "nav-menu"} >
                         <li className = "nav-li" >
-                            <Link to = '/' className = "nav-link" onClick = { closeMenu } >
+                            <Link to = '/official-site' className = "nav-link" onClick = { closeMenu } >
                                 Home
                             </Link>
                         </li>
 
                         <li className = "nav-li" >
-                            <Link to = '/about' className = "nav-link" onClick = { closeMenu } >
+                            <Link to = '/official-site/about' className = "nav-link" onClick = { closeMenu } >
                                 About me
                             </Link>
                         </li>
 
                         <li>
-                            <Link to = '/contact' className = "nav-link-contact" onClick = { closeMenu } >
+                            <Link to = '/official-site/contact' className = "nav-link-contact" onClick = { closeMenu } >
                                 Contact me
                             </Link>
                         </li>
                     </ul>
                 {(button ?  
-                <Link to = '/contact'>
+                <Link to = '/official-site/contact'>
                     <button className = "btn btn--outline btn--medium">Contact me</button>
                 </Link> : null)
                 }
