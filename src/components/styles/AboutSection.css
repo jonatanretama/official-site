@@ -57,8 +57,8 @@
 }
 
 .second-image {
-    margin-top: 4rem;
     border-radius: 15%;
+    margin-top: 4rem;
     width: 150px;
     height: 180px;
     margin-left: 3rem;
@@ -95,15 +95,14 @@
 }
 
 .dev-container {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 90vw;
+    max-width: 96vw;
     width: auto;
     height: auto;
-    
 }
 
 .fa-user-astronaut {
@@ -111,13 +110,13 @@
 }
 
 .dev-icons {
-    display: flex;
+    display: flex;    
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
     width: auto;
     height: auto;
-    padding: 15px;
+    padding: 20px;
     margin-top: 1rem;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.3);
@@ -127,12 +126,12 @@
 .icons-dev-container{
     display: grid;
     grid-template-columns: repeat(8, auto);
-    grid-gap: 20px;    
+    grid-gap: 27px;
 }
 
 .icon-dev-into {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .icon-dev-into:hover {
@@ -150,6 +149,7 @@
 
 @media screen and (max-width: 960px){
     .first-image {
+        margin-top: 17px;
         border-radius: 15%;
         width: 100px;
         height: 130px;
@@ -182,7 +182,7 @@
         grid-gap: 20px;    
     }
 
-    .first-about-section {
+    .first-about-section {        
         max-width: 95vw;
         width: 92vw;
     }
@@ -193,7 +193,7 @@
     }
 
     .first-image {
-        margin-top: 2rem;
+        margin-top: 3rem;
         width: 60px;
         height: 80px;
         margin-right: 1rem;

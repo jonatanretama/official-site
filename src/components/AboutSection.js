@@ -15,7 +15,7 @@ function AboutSection() {
                     </h2>
                     <p className = "text-background">
                     I'm 21 years old, I love video games, developing back-end 
-                    & front-end software, listening to music all the time and lastly, 
+                    and front-end software, listening to music all the time and lastly, 
                     I love cars.
                     </p>
                 </div>
