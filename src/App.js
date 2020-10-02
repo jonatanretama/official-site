@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
+    //jonatan retama
     <>
       <Router>
         <Navbar />
